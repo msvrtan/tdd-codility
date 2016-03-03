@@ -1,0 +1,27 @@
+{
+    "name": "symfony/framework-standard-edition",
+    "license": "MIT",
+    "type": "project",
+    "description": "The \"Symfony Standard Edition\" distribution",
+    "autoload": {
+        "psr-4": { "": "src/" }
+    },
+    "require": {
+        "phpunit/phpunit":                          "~4",
+        "mockery/mockery":                          "~0.9",
+        "phpspec/phpspec":                          "~2.0",
+        "henrikbjorn/phpspec-code-coverage":        "~2.0",
+        "coduo/phpspec-data-provider-extension":    "^1.0",
+        "ciaranmcnulty/phpspec-typehintedmethods":  "~1.1",
+        "rmiller/exemplify-extension":              "~0.2",
+        "behat/behat":                              "~3.0",
+        "rmiller/behat-spec":                       "~0.2",
+        "phpmd/phpmd":                              "~2.1",
+        "squizlabs/php_codesniffer":                "2.*",
+        "fabpot/php-cs-fixer":                      "~1.5",
+        "vinkla/climb":                             "^0.8"
+    },
+    "config": {
+        "bin-dir": "bin"
+    }
+}

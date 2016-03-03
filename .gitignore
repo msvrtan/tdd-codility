@@ -1,0 +1,11 @@
+/bin/
+/build/
+/composer.phar
+/tmp
+/vendor/
+
+/.idea
+*~
+*.orig
+.DS_Store
+.ant-targets-build.xml
